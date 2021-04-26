@@ -1,47 +1,49 @@
-# Sale Place 
-[Live Demo](https://saleplace.web.app/)
 
-Ethereum based e-commerce app for sale
-A decentralized application running on Ethereum were a user can purchase/sell an item and track/update its status on the go.
 
-[EtherScan Contract Deployed Address](https://rinkeby.etherscan.io/address/0xd823ff2600b5a0456c6a797b5cf1eaec2a32eb95)
+
 
 ## What's a SalePlace
-SalePlace is a e-commerce app , having only two kinds of user seller and a purchaser .Seller will be creating an item for sale and any user(purchaser) can pay for the item. Purchased item status will be updated by the seller and purchaser in the order of the action required from both ends.
+Decentralized marketplace is a blockchain-based e-commerce app. There is two types of users buyer and seller
+## Seller' role
+1. Seller can sell an item
+2. Seller can enlist item as many as possible
+3. Sellers can update the item details that they created
+4. Sellers can see the items list but can't buy item they creted
+5. Seller can refund the item purchase amount once recieved
+6. Seller can set the status of a purchase item from purchase to shipped
 
-## User Actions
-1. User can sell an item
-2. User can buy an item
-3. User can see the list of item they have purcahsed
-4. User can edit the item they have created
-5. Seller can set item purchased status as shipped
-6. Purchaser can set the item status as received only if shipped
-7. Seller can refund the item purchase amount once recieved
+## Buyer Actions
+1. Buyers can buy an item that they don't create
+2. Buyers can see the list of item they have purcahsed
+2. Buyer can see the list of items available in the market
+4. Buyer can set the item status as received only if shipped
+
 
 
 ## Running locally
-1. Install git, truffle and Metamask
+1.MetaMask can be installed from the [Firefox add-ons store](https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/).
+2.If you want to use local blockchain, install ganache according to your operating system from [here](https://www.trufflesuite.com/ganache)
+3. Install git and truffle 
     ```sh
     # install git
     sudo apt-get install -y git
     # install truffle
     sudo npm install -g truffle
     ```
-    MetaMask can be installed from the [Firefox add-ons store](https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/).
-    ```
-2. Install node (v10.0+), npm
+4. Install node (v10.0+), npm
     ```sh
     # install curl
     sudo apt-get install curl
     # install node & npm
     curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
     sudo apt-get install -y nodejs
-3. Install project dependencies
+5. Install project dependencies
     ```sh
     git clone https://github.com/anandmv/Sale-Place
     cd Sale-Place/client
     npm install
     ```
+6. 
 4. Run the Truffle development blockchain and ethereum-bridge in two seperate consoles (follow this exact order!)
     ```sh
     cd Sale-Place
