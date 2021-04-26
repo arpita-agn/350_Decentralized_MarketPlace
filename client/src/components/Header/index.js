@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const HeaderWrapper = styled.div`
     overflow: hidden;
-    background-color: #8BC34A;
+    background-color: #48DFA9;
     padding: 20px 10px;
   
   /* Style the header links */
@@ -27,7 +27,7 @@ const HeaderWrapper = styled.div`
   
   /* Change the background color on mouse-over */
   a:hover, a.active {
-    background-color: #8BC34A;
+    background-color: #023000;
     color: white;
     font-weight:bold;
   }
@@ -51,7 +51,7 @@ const HeaderWrapper = styled.div`
 `
 
 const Header = () => <HeaderWrapper>
-    <Link to="/" className="logo">Sale APP</Link>
+    <Link to="/" className="logo">Decentralized Market-Place</Link>
     <div className="header-right">
         <Link to="/">Home</Link>
         <Link to="/item/create">Create</Link>

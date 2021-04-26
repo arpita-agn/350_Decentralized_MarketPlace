@@ -32,6 +32,7 @@ class ItemDetails extends Component {
 
   isActionOwner(address = ''){
     return address.toString() === this.state.accounts[0].toString() 
+    
   }
 
   async getItem(){
@@ -114,7 +115,7 @@ class ItemDetails extends Component {
                   <Heading.h4>{price} ETH</Heading.h4>
                   <Text>Seller <EthAddress address={seller} truncate/></Text>
                   <Text>Only {numberOfItems} items left </Text>
-                  {numberOfItems > 0 && <Button onClick={this.buyItem.bind(this)}>Buy</Button>}
+                   { !this.isActionOwner(seller) &&  numberOfItems > 0 && <Button variant="success" onClick={this.buyItem.bind(this)}>Buy</Button>} 
                   {numberOfItems === 0 && <Button disabled>SoldOut</Button>}
                 </ContentFlex>
               </Box>

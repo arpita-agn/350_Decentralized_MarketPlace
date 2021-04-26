@@ -149,7 +149,7 @@ class ItemForm extends Component {
                 value={this.state.numberOfItems}
             />
             </Form.Field>
-            <Button type="submit" width={1} disabled={this.state.submitting}>{isEdit ? 'Update': 'Create'}</Button>
+            <Button type="submit" variant="success"  width={1} disabled={this.state.submitting}>{isEdit ? 'Update': 'Create'}</Button>
         </Form>
       </Card>
   }

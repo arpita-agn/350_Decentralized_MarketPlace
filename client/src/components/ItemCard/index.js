@@ -8,7 +8,7 @@ const ItemCard = ({ id, name , image, priceInWei}) => <Link to={`/item/${id}`}>
         <Image borderRadius={8} src={image} width={1} alt={name}/>
         <Box px={4} py={3}>
             <Heading.h4>{name}</Heading.h4>
-            <Heading.h5 bold>{Web3.utils.fromWei(priceInWei, 'ether')} ETH</Heading.h5>
+           <Heading.h5 bold>{Web3.utils.fromWei(priceInWei, 'ether')} ETH</Heading.h5>
         </Box>
     </Card></Link>
 
