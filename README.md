@@ -46,7 +46,7 @@ Decentralized marketplace is a blockchain-based e-commerce app. There is two typ
     cd Sale-Place/client
     npm install
     ```
-6. After cloning this project delete all the json file from this path("350_Decentralized_MarketPlace/client/src/contracts/") of the project.
+6. After cloning this project delete all the json files from this path("350_Decentralized_MarketPlace/client/src/contracts/") of the project.
 7. After downloading ganache ui, open this in your pc, click the new workspace button here.
 
 ![alt text](https://1.bp.blogspot.com/-hqMhtEh0AH0/XEIUQH7YT6I/AAAAAAAAb5g/7MkrdQigbaIq7-cXhFsscl8zxu1QfQqJgCK4BGAYYCw/s1600/Screenshot%2Bfrom%2B2019-01-18%2B23-28-07.png)
