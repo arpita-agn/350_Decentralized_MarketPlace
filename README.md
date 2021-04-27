@@ -6,11 +6,12 @@
 Decentralized marketplace is a blockchain-based e-commerce app. There is two types of users buyer and seller
 ## Seller' role
 1. Seller can sell an item
-2. Seller can enlist item as many as possible
+2. Seller can enlist items as many as possible
 3. Sellers can update the item details that they created
-4. Sellers can see the items list but can't buy item they creted
-5. Seller can refund the item purchase amount once recieved
+4. Sellers can see the items list but can't buy item that they have creted
+5. Sellers can refund the purchase amount of an item once they have recieved
 6. Seller can set the status of a purchase item from purchase to shipped
+7. Sellers have the purchase history of an item they have enlisted
 
 ## Buyer Actions
 1. Buyers can buy an item that they don't create
@@ -59,7 +60,7 @@ Then you will see a gui like that
 
 Then leave it open like that.
 
-7. Run the Truffle development blockchain and ethereum-bridge in two seperate consoles (follow this exact order!)
+7. Run the Truffle development console.
     ```sh
     cd Sale-Place
     truffle develop
