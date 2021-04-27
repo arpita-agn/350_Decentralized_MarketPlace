@@ -2,7 +2,7 @@
 
 
 
-## What's a SalePlace
+## What's a Decentralized marketplace
 Decentralized marketplace is a blockchain-based e-commerce app. There is two types of users buyer and seller
 ## Seller' role
 1. Seller can sell an item
@@ -46,7 +46,7 @@ Decentralized marketplace is a blockchain-based e-commerce app. There is two typ
     npm install
     ```
 6. After downloading ganache ui, open this in your pc, click the new workspace button here.
-![alt text]https://1.bp.blogspot.com/-hqMhtEh0AH0/XEIUQH7YT6I/AAAAAAAAb5g/7MkrdQigbaIq7-cXhFsscl8zxu1QfQqJgCK4BGAYYCw/s1600/Screenshot%2Bfrom%2B2019-01-18%2B23-28-07.png
+![alt text](https://1.bp.blogspot.com/-hqMhtEh0AH0/XEIUQH7YT6I/AAAAAAAAb5g/7MkrdQigbaIq7-cXhFsscl8zxu1QfQqJgCK4BGAYYCw/s1600/Screenshot%2Bfrom%2B2019-01-18%2B23-28-07.png)
 8. Run the Truffle development blockchain and ethereum-bridge in two seperate consoles (follow this exact order!)
     ```sh
     cd Sale-Place
