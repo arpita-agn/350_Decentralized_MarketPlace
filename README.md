@@ -22,7 +22,9 @@ Decentralized marketplace is a blockchain-based e-commerce app. There is two typ
 
 ## Running locally
 1.MetaMask can be installed from the [Firefox add-ons store](https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/).
+
 2.If you want to use local blockchain, install ganache according to your operating system from [here](https://www.trufflesuite.com/ganache)
+
 3. Install git and truffle 
     ```sh
     # install git
