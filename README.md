@@ -53,7 +53,7 @@ Decentralized marketplace is a blockchain-based e-commerce app. There is two typ
 
 In the next page name your project with a suitable name. Then click the add project option and navigate to the file where the truffle-config.js of this project is stored and select this. Finally click save workspace button after completing the setup.
 
-![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOcYMMiveL0Jj-ZkMpC4qv5w7jy4_KufNhvA&usqp=CAU)
+![alt text](https://www.trufflesuite.com/img/docs/ganache/v2-shared-seese/new-workspace.png)
 
 Then you will see a gui like that
 
