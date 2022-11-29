@@ -8,7 +8,7 @@ Decentralized marketplace is a blockchain-based e-commerce app. There is two typ
 1. Seller can sell an item
 2. Seller can enlist items as many as possible
 3. Sellers can update the item details that they created
-4. Sellers can see the items list but can't buy item that they have creted
+4. Sellers can see the items list but can't buy item that they have created
 5. Sellers can refund the purchase amount of an item once they have recieved
 6. Seller can set the status of a purchase item from purchase to shipped
 7. Sellers have the purchase history of an item they have enlisted
